@@ -6,39 +6,39 @@
 
 @layer base {
   :root {
-    --background: 45 30% 97%;
-    --foreground: 220 25% 15%;
+    --background: 45 40% 98%;
+    --foreground: 220 30% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 25% 15%;
+    --card-foreground: 220 30% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 15%;
+    --popover-foreground: 220 30% 12%;
 
-    --primary: 145 50% 28%;
+    --primary: 145 65% 38%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 80% 50%;
+    --secondary: 38 95% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 45 20% 92%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 45 30% 94%;
+    --muted-foreground: 220 15% 40%;
 
-    --accent: 200 70% 45%;
+    --accent: 200 85% 50%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 90% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 45 20% 85%;
-    --input: 45 20% 85%;
-    --ring: 145 50% 28%;
+    --border: 45 25% 88%;
+    --input: 45 25% 88%;
+    --ring: 145 65% 38%;
 
     --radius: 0.5rem;
 
-    --hero-overlay: 220 30% 10%;
-    --gold: 45 90% 55%;
-    --maroon: 350 60% 30%;
+    --hero-overlay: 220 35% 8%;
+    --gold: 48 100% 58%;
+    --maroon: 350 70% 40%;
 
     --font-display: 'Playfair Display', serif;
     --font-body: 'Open Sans', sans-serif;
