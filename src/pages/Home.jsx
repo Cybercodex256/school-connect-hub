@@ -7,7 +7,6 @@ import ImageSlideshow from '../components/ImageSlideshow';
 import SectionHeader from '../components/SectionHeader';
 import ValueCard from '../components/ValueCard';
 
-import heroImage from '../assets/hero-bg.jpg';
 import gallery1 from '../assets/gallery-1.jpg';
 import gallery2 from '../assets/gallery-2.jpg';
 import gallery3 from '../assets/gallery-3.jpg';
@@ -15,9 +14,9 @@ import gallery4 from '../assets/gallery-4.jpg';
 import gallery5 from '../assets/gallery-5.jpg';
 
 const heroSlides = [
-  { src: heroImage, alt: 'Queen of Martyrs Campus', caption: 'Excellence in Education Since 2020' },
-  { src: gallery1, alt: 'Students Learning', caption: 'Nurturing Future Leaders' },
-  { src: gallery2, alt: 'School Activities', caption: 'Holistic Development' },
+  { src: gallery1, alt: 'Queen of Martyrs Campus', caption: 'Excellence in Education Since 2020' },
+  { src: gallery2, alt: 'Students Learning', caption: 'Nurturing Future Leaders' },
+  { src: gallery3, alt: 'School Activities', caption: 'Holistic Development' },
 ];
 
 const values = [
@@ -38,7 +37,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={heroImage}
+            src={gallery1}
             alt="Queen of Martyrs Secondary School"
             className="w-full h-full object-cover"
           />
