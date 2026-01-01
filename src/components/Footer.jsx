@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import schoolBadge from '../assets/school-badge.jpg';
 
 const Footer = () => {
   return (
@@ -10,9 +11,7 @@ const Footer = () => {
           {/* School Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full bg-primary-foreground flex items-center justify-center">
-                <span className="text-primary font-display font-bold text-xl">QM</span>
-              </div>
+              <img src={schoolBadge} alt="School Badge" className="w-12 h-12 rounded-full object-cover bg-white" />
               <div>
                 <h3 className="font-display font-bold text-lg">Queen of Martyrs</h3>
                 <p className="text-sm opacity-80">Secondary School</p>
