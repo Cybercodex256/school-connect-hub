@@ -12,17 +12,19 @@ import gallery4 from '../assets/gallery-4.jpg';
 import gallery5 from '../assets/gallery-5.jpg';
 import gallery6 from '../assets/gallery-6.jpg';
 import gallery7 from '../assets/gallery-7.jpg';
-import heroImage from '../assets/hero-bg.jpg';
+import heroImage from '../assets/hero-image.jpg';
+import gallery8 from '../assets/gallery-8.jpg';
 
 const images = [
-  { src: gallery1, alt: 'ICT Laboratory - Students Learning Computer Skills', category: 'ICT Laboratory' },
-  { src: gallery2, alt: 'ICT Laboratory - Modern Computer Facilities', category: 'ICT Laboratory' },
+  { src: gallery1, alt: 'Girls Dormitory block', category: 'ICT Laboratory' },
+  { src: gallery2, alt: 'Science Laboratory - Students Conducting Experiments', category: 'ICT Laboratory' },
   { src: gallery3, alt: 'ICT Laboratory - Practical Sessions', category: 'ICT Laboratory' },
-  { src: gallery4, alt: 'School Compound and Buildings', category: 'Others' },
-  { src: gallery5, alt: 'Students During Assembly', category: 'Others' },
-  { src: gallery6, alt: 'Sports and Recreation Activities', category: 'Others' },
+  { src: gallery4, alt: 'Project Work', category: 'Others' },
+  { src: gallery5, alt: 'Student science laboratory', category: 'Others' },
+  { src: gallery6, alt: 'School Library', category: 'Others' },
   { src: gallery7, alt: 'Classroom Block and Facilities', category: 'Others' },
   { src: heroImage, alt: 'Main Campus View', category: 'Others' },
+  { src: gallery8, alt: 'Classroom Block and Facilities', category: 'Others' }
 ];
 
 const categories = ['All', 'ICT Laboratory', 'Others'];
