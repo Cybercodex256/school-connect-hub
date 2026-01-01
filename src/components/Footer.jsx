@@ -35,6 +35,7 @@ const Footer = () => {
                 { name: 'Applications', path: '/applications' },
                 { name: 'Holiday Work', path: '/holiday-work' },
                 { name: 'Circulars', path: '/circulars' },
+                { name: 'Fees', path: '/fees' },
               ].map((link) => (
                 <li key={link.name}>
                   <Link
@@ -55,16 +56,21 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
                 <span className="text-sm opacity-80">
-                  Kigoma Village, Bukasa Parish, Wakiso District, Uganda
+                  P.O. Box 3443, Kampala<br />
+                  Kigoma Village, Bukasa Parish, Wakiso District
                 </span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 flex-shrink-0" />
-                <span className="text-sm opacity-80">+256 700 000 000</span>
+              <li className="flex items-start gap-3">
+                <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
+                <div className="text-sm opacity-80">
+                  <p>0782-162068</p>
+                  <p>0704-955683</p>
+                  <p>0705-554967</p>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <span className="text-sm opacity-80">info@queenofmartyrs.ac.ug</span>
+                <span className="text-sm opacity-80">kigomaqueenofmartyrs@gmail.com</span>
               </li>
             </ul>
           </div>

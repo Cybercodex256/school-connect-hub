@@ -161,11 +161,17 @@ const Fees = () => {
           <div className="max-w-2xl mx-auto bg-gradient-to-r from-primary to-primary/80 rounded-2xl p-8 text-primary-foreground">
             <h3 className="font-display text-2xl font-bold mb-4">Have Questions About Fees?</h3>
             <p className="mb-6 opacity-90">Contact us for more information about payment plans and scholarships</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:0782162068" className="bg-primary-foreground text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary-foreground/90 transition-colors">
-                Call: 0782-162068
+            <div className="flex flex-col sm:flex-row gap-4 justify-center text-sm">
+              <a href="tel:0782162068" className="bg-primary-foreground text-primary px-5 py-3 rounded-lg font-semibold hover:bg-primary-foreground/90 transition-colors">
+                0782-162068
               </a>
-              <a href="mailto:kigomaqueenofmartyrs@gmail.com" className="bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-secondary/90 transition-colors">
+              <a href="tel:0704955683" className="bg-primary-foreground text-primary px-5 py-3 rounded-lg font-semibold hover:bg-primary-foreground/90 transition-colors">
+                0704-955683
+              </a>
+              <a href="tel:0705554967" className="bg-primary-foreground text-primary px-5 py-3 rounded-lg font-semibold hover:bg-primary-foreground/90 transition-colors">
+                0705-554967
+              </a>
+              <a href="mailto:kigomaqueenofmartyrs@gmail.com" className="bg-secondary text-secondary-foreground px-5 py-3 rounded-lg font-semibold hover:bg-secondary/90 transition-colors">
                 Email Us
               </a>
             </div>
