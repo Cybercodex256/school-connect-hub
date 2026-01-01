@@ -20,6 +20,7 @@ const navLinks = [
     ],
   },
   { name: 'Circulars', path: '/circulars' },
+  { name: 'Fees', path: '/fees' },
 ];
 
 const Navbar = () => {
