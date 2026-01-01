@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import schoolBadge from '../assets/school-badge.jpg';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -58,7 +59,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* School Name */}
-          <Link to="/" className={`${scrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
+          <Link to="/" className={`flex items-center gap-3 ${scrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
+            <img src={schoolBadge} alt="School Badge" className="w-12 h-12 rounded-full object-cover bg-white" />
             <h1 className="font-display font-bold text-xl leading-tight">Queen of Martyrs S.S</h1>
           </Link>
 
