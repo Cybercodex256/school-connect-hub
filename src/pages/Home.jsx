@@ -12,6 +12,7 @@ import gallery2 from '../assets/gallery-2.jpg';
 import gallery3 from '../assets/gallery-3.jpg';
 import gallery4 from '../assets/gallery-4.jpg';
 import gallery5 from '../assets/gallery-5.jpg';
+import schoolBuilding from '../assets/school-building.jpg';
 
 const heroSlides = [
   { src: gallery1, alt: 'Queen of Martyrs Campus', caption: 'Excellence in Education Since 2020' },
@@ -37,7 +38,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={gallery1}
+            src={schoolBuilding}
             alt="Queen of Martyrs Secondary School"
             className="w-full h-full object-cover"
           />

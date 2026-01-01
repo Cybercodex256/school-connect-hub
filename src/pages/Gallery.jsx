@@ -15,17 +15,17 @@ import gallery7 from '../assets/gallery-7.jpg';
 import heroImage from '../assets/hero-bg.jpg';
 
 const images = [
-  { src: gallery1, alt: 'School Life', category: 'Campus' },
-  { src: gallery2, alt: 'Students', category: 'Students' },
-  { src: gallery3, alt: 'Activities', category: 'Activities' },
-  { src: gallery4, alt: 'Learning', category: 'Learning' },
-  { src: gallery5, alt: 'Events', category: 'Events' },
-  { src: gallery6, alt: 'Sports', category: 'Activities' },
-  { src: gallery7, alt: 'Facilities', category: 'Campus' },
-  { src: heroImage, alt: 'Campus View', category: 'Campus' },
+  { src: gallery1, alt: 'ICT Laboratory - Students Learning Computer Skills', category: 'ICT Laboratory' },
+  { src: gallery2, alt: 'ICT Laboratory - Modern Computer Facilities', category: 'ICT Laboratory' },
+  { src: gallery3, alt: 'ICT Laboratory - Practical Sessions', category: 'ICT Laboratory' },
+  { src: gallery4, alt: 'School Compound and Buildings', category: 'Others' },
+  { src: gallery5, alt: 'Students During Assembly', category: 'Others' },
+  { src: gallery6, alt: 'Sports and Recreation Activities', category: 'Others' },
+  { src: gallery7, alt: 'Classroom Block and Facilities', category: 'Others' },
+  { src: heroImage, alt: 'Main Campus View', category: 'Others' },
 ];
 
-const categories = ['All', 'Campus', 'Students', 'Activities', 'Learning', 'Events'];
+const categories = ['All', 'ICT Laboratory', 'Others'];
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
