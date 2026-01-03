@@ -13,6 +13,7 @@ import gallery3 from '../assets/gallery-3.jpg';
 import gallery4 from '../assets/gallery-4.jpg';
 import gallery5 from '../assets/gallery-5.jpg';
 import schoolBuilding from '../assets/school-building.jpg';
+import uceBestStudents from '../assets/uce-best-students.jpg';
 
 const heroSlides = [
   { src: gallery1, alt: 'Queen of Martyrs Campus', caption: 'Excellence in Education Since 2020' },
@@ -46,15 +47,18 @@ const Home = () => {
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
           <div className="animate-fade-in">
-            <div className="inline-block mb-6 px-4 py-2 bg-secondary/90 rounded-full">
+            <div className="inline-block mb-4 px-4 py-2 bg-secondary/90 rounded-full">
               <span className="text-secondary-foreground font-medium text-sm">
                 Registered: ME/32/6435 | UNEB Centre: U4289
               </span>
             </div>
-            <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-shadow">
+            <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-shadow">
               Queen of Martyrs
               <span className="block text-secondary">Secondary School</span>
             </h1>
+            <p className="text-xl md:text-2xl font-semibold italic mb-6 text-secondary">
+              "God Source of Wisdom"
+            </p>
             <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-90">
               Providing excellent quality secondary education and producing self-reliant,
               God fearing citizens ready to handle the challenges of the evolving era.
@@ -78,6 +82,48 @@ const Home = () => {
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-primary-foreground/50 rounded-full flex justify-center pt-2">
             <div className="w-1.5 h-3 bg-primary-foreground/50 rounded-full" />
+          </div>
+        </div>
+      </section>
+
+      {/* UCE Best Students Section */}
+      <section className="py-20 bg-secondary/10">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <img
+                src={uceBestStudents}
+                alt="UCE Best Performing Students 2024"
+                className="w-full rounded-xl shadow-2xl"
+              />
+              <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-6 py-3 rounded-lg shadow-lg">
+                <p className="font-display font-bold">UCE 2024</p>
+              </div>
+            </div>
+            <div>
+              <SectionHeader
+                title="Celebrating Excellence"
+                subtitle="Our UCE 2024 Top Performers"
+                centered={false}
+              />
+              <p className="text-muted-foreground leading-relaxed mb-6 text-lg">
+                Our UCE 2024 top performers exemplify the dedication and hard work that defines 
+                Queen of Martyrs. With <strong className="text-primary">"God as our source of wisdom"</strong>, 
+                our students continue to achieve remarkable success.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-8">
+                These outstanding students have demonstrated exceptional academic prowess, 
+                proving that with faith, dedication, and the right guidance, excellence is achievable. 
+                We congratulate them on their remarkable achievements and wish them continued success 
+                in their future endeavors.
+              </p>
+              <div className="bg-primary/10 rounded-xl p-6 border-l-4 border-primary">
+                <p className="text-foreground font-display text-xl italic">
+                  "God Source of Wisdom"
+                </p>
+                <p className="text-muted-foreground mt-2">— School Motto</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -162,9 +208,9 @@ const Home = () => {
                 Address
               </h3>
               <p className="text-primary-foreground/80">
-                Kigoma Village, Bukasa Parish,<br />
-                Wakiso Sub-county,<br />
-                Wakiso District, Uganda
+                Kigoma, Bukasa, Wakiso District<br />
+                Behind Kyebando-Nansana<br />
+                Opposite Nakabugo-Sentena Road
               </p>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-6 border border-primary-foreground/20">
