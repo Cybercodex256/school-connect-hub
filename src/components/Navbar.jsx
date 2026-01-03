@@ -61,7 +61,12 @@ const Navbar = () => {
           {/* School Name */}
           <Link to="/" className={`flex items-center gap-3 ${scrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
             <img src={schoolBadge} alt="School Badge" className="w-12 h-12 rounded-full object-cover bg-white" />
-            <h1 className="font-display font-bold text-xl leading-tight">Queen of Martyrs S.S</h1>
+            <div>
+              <h1 className="font-display font-bold text-xl leading-tight">Queen of Martyrs S.S</h1>
+              <p className={`text-xs italic ${scrolled ? 'text-muted-foreground' : 'text-primary-foreground/80'}`}>
+                "God Source of Wisdom"
+              </p>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
