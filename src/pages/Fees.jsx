@@ -19,7 +19,7 @@ const oLevelFees = [
 
 const aLevelFees = [
   { item: 'Admission Fees', boarding: '50,000', day: '50,000' },
-  { item: 'Tuition Fees', boarding: '1,050,000', day: '640,000' },
+  { item: 'Tuition Fees', boarding: '950,000', day: '640,000' },
   { item: 'Functional Fees', boarding: '520,000', day: '350,000' },
 ];
 
