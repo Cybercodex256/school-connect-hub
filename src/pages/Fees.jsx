@@ -111,6 +111,10 @@ const Fees = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li className="flex items-start gap-2">
                 <span className="text-secondary font-bold">•</span>
+                <strong className="text-foreground">Functional fees are paid on entry</strong>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-secondary font-bold">•</span>
                 Functional fees include: Uniforms, Sportswear, a sweater, Casual wear T-shirts and Development fees
               </li>
               <li className="flex items-start gap-2">
@@ -134,8 +138,8 @@ const Fees = () => {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <SectionHeader
-            title="Personal Requirements"
-            subtitle="Items students need to bring when joining the school"
+            title="Student's Personal Requirements"
+            subtitle="What students need to bring when joining the school"
           />
           
           <div className="max-w-4xl mx-auto mt-12">

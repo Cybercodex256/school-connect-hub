@@ -35,6 +35,30 @@ const Home = () => {
     <div className="min-h-screen">
       <Navbar />
 
+      {/* Marquee Announcement */}
+      <div className="bg-secondary text-secondary-foreground py-2 mt-20 overflow-hidden">
+        <div className="animate-marquee whitespace-nowrap">
+          <span className="mx-4">📚 Welcome to Queen of Martyrs S.S Kigoma - "God Source of Wisdom"</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">🎓 Admissions Open for 2026 Academic Year - Apply Now!</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">🏆 Congratulations to our UCE 2024 Top Performers!</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">📖 Registered: ME/32/6435 | UNEB Centre: U4289</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">📍 Located at Kigoma, Bukasa, Wakiso District</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">📚 Welcome to Queen of Martyrs S.S Kigoma - "God Source of Wisdom"</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">🎓 Admissions Open for 2026 Academic Year - Apply Now!</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">🏆 Congratulations to our UCE 2024 Top Performers!</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">📖 Registered: ME/32/6435 | UNEB Centre: U4289</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">📍 Located at Kigoma, Bukasa, Wakiso District</span>
+        </div>
+      </div>
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">

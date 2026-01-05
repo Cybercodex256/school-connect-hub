@@ -9,6 +9,7 @@ import HolidayWork from './pages/HolidayWork';
 import HolidayWorkForm from './pages/HolidayWorkForm';
 import Circulars from './pages/Circulars';
 import Fees from './pages/Fees';
+import SchoolRules from './pages/SchoolRules';
 import NotFound from './pages/NotFound';
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/holiday-work/:formId" element={<HolidayWorkForm />} />
         <Route path="/circulars" element={<Circulars />} />
         <Route path="/fees" element={<Fees />} />
+        <Route path="/school-rules" element={<SchoolRules />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
