@@ -19,10 +19,9 @@ const values = [
 ];
 
 const managementStructure = [
-  'Board of Governors',
+  'Directors',
   'Head Teacher',
-  'Deputy Administration',
-  'Deputy Academics',
+  'Deputy Head Teacher',
   'Director of Studies',
   'Heads of Departments',
   'Class Teachers',
@@ -71,7 +70,7 @@ const About = () => {
                 <span className="font-semibold">Our Mission</span>
               </div>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Shaping Tomorrow's Leaders
+                Our Mission
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 To provide excellent quality secondary education and produce self-reliant,
