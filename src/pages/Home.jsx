@@ -42,6 +42,8 @@ const Home = () => {
           <span className="mx-4">•</span>
           <span className="mx-4">🎓 Admissions Open for 2026 Academic Year - Apply Now!</span>
           <span className="mx-4">•</span>
+          <span className="mx-4">📝 Registration for S1, S2, S3 and S5 students in progress</span>
+          <span className="mx-4">•</span>
           <span className="mx-4">🏆 Congratulations to our UCE 2024 Top Performers!</span>
           <span className="mx-4">•</span>
           <span className="mx-4">📖 Registered: ME/32/6435 | UNEB Centre: U4289</span>
@@ -51,6 +53,8 @@ const Home = () => {
           <span className="mx-4">📚 Welcome to Queen of Martyrs S.S Kigoma - "God Source of Wisdom"</span>
           <span className="mx-4">•</span>
           <span className="mx-4">🎓 Admissions Open for 2026 Academic Year - Apply Now!</span>
+          <span className="mx-4">•</span>
+          <span className="mx-4">📝 Registration for S1, S2, S3 and S5 students in progress</span>
           <span className="mx-4">•</span>
           <span className="mx-4">🏆 Congratulations to our UCE 2024 Top Performers!</span>
           <span className="mx-4">•</span>

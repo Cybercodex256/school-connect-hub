@@ -100,7 +100,7 @@ const Fees = () => {
             <FeesTable
               title="A-Level Fees (S.5 - S.6)"
               data={aLevelFees}
-              totalBoarding="1,620,000"
+              totalBoarding="1,520,000"
               totalDay="1,040,000"
             />
           </div>
