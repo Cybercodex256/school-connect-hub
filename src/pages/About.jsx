@@ -207,7 +207,6 @@ const About = () => {
                   'Settling squatters on school land',
                   'Building a larger Library',
                   'Constructing a new Dining Hall',
-                  'Tarmacking the school compound',
                   'Building dedicated human resources',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-muted-foreground">

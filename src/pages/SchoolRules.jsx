@@ -54,7 +54,7 @@ const sections = [
       'English Language is the medium of communication. Vernacular speaking is highly punishable.',
       'All students going out for games and sports, seminars etc. must be in full uniform and must carry their identity cards.',
       'All students must purchase their requirements only from the school canteen during break time, lunch time and after classes.',
-      'All day students must be dressed in full uniform from and to school, on outings and at home.',
+      'All day students must be dressed in full uniform from and to school, on outings and at home. Black leather shoes are required.',
       'Uniforms provided at school must be worn as given. Alterations to school uniforms are not allowed.',
     ],
   },

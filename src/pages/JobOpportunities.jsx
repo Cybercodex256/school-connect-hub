@@ -7,78 +7,7 @@ import { Badge } from '../components/ui/badge';
 
 import gallery2 from '../assets/gallery-2.jpg';
 
-const jobListings = [
-  {
-    id: 1,
-    title: 'Mathematics Teacher',
-    department: 'Academic Staff',
-    type: 'Full-time',
-    deadline: 'January 31, 2026',
-    description: 'We are seeking a qualified and passionate Mathematics teacher for O-Level and A-Level classes. The ideal candidate should have a strong command of the subject and ability to inspire students.',
-    requirements: [
-      "Bachelor's degree in Mathematics or Education",
-      'Minimum 2 years teaching experience',
-      'Registered with Ministry of Education',
-      'Strong communication skills',
-    ],
-  },
-  {
-    id: 2,
-    title: 'Physics Teacher',
-    department: 'Academic Staff',
-    type: 'Full-time',
-    deadline: 'January 31, 2026',
-    description: 'Looking for an experienced Physics teacher to join our science department. Must be able to conduct practical lessons and prepare students for national examinations.',
-    requirements: [
-      "Bachelor's degree in Physics or Science Education",
-      'Experience with laboratory management',
-      'Minimum 2 years teaching experience',
-      'Ability to mentor students in science clubs',
-    ],
-  },
-  {
-    id: 3,
-    title: 'English Language Teacher',
-    department: 'Academic Staff',
-    type: 'Full-time',
-    deadline: 'February 15, 2026',
-    description: 'We need a dynamic English teacher who can enhance students\' language skills and prepare them for academic excellence in both O-Level and A-Level.',
-    requirements: [
-      "Bachelor's degree in English or Literature",
-      'Excellent written and spoken English',
-      'Experience in teaching English as a subject',
-      'Creative teaching methodologies',
-    ],
-  },
-  {
-    id: 4,
-    title: 'School Bursar',
-    department: 'Administration',
-    type: 'Full-time',
-    deadline: 'February 28, 2026',
-    description: 'We are looking for a qualified accountant to manage the school\'s financial operations, including fee collection, budgeting, and financial reporting.',
-    requirements: [
-      "Bachelor's degree in Accounting or Finance",
-      'CPA certification preferred',
-      'Minimum 3 years experience in financial management',
-      'Proficiency in accounting software',
-    ],
-  },
-  {
-    id: 5,
-    title: 'School Nurse',
-    department: 'Health Services',
-    type: 'Full-time',
-    deadline: 'February 15, 2026',
-    description: 'Seeking a registered nurse to provide healthcare services to students and staff, manage the school clinic, and coordinate health education programs.',
-    requirements: [
-      'Diploma or Degree in Nursing',
-      'Valid nursing registration',
-      'Experience in school or community health',
-      'First aid and emergency response skills',
-    ],
-  },
-];
+const jobListings = [];
 
 const JobCard = ({ job }) => (
   <div className="bg-card rounded-xl p-6 shadow-lg border border-border hover:shadow-xl transition-shadow">
@@ -191,11 +120,25 @@ const JobOpportunities = () => {
             title="Current Openings"
             subtitle="Explore available positions at our school"
           />
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {jobListings.map((job) => (
-              <JobCard key={job.id} job={job} />
-            ))}
-          </div>
+          {jobListings.length > 0 ? (
+            <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+              {jobListings.map((job) => (
+                <JobCard key={job.id} job={job} />
+              ))}
+            </div>
+          ) : (
+            <div className="max-w-2xl mx-auto text-center">
+              <div className="bg-muted rounded-xl p-12 border border-border">
+                <Briefcase className="w-16 h-16 text-muted-foreground mx-auto mb-4" />
+                <h3 className="font-display text-2xl font-semibold text-foreground mb-2">
+                  No Positions Available
+                </h3>
+                <p className="text-muted-foreground">
+                  There are currently no job openings at this time. Please check back later for future opportunities.
+                </p>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
