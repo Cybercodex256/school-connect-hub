@@ -8,7 +8,7 @@ import SectionHeader from '../components/SectionHeader';
 import gallery2 from '../assets/gallery-2.jpg';
 
 // Replace this with your actual Google Form ID
-const GOOGLE_FORM_ID = '1FAIpQLSd2HTeevaUHq1dO8B47BDnzxkCo8dN3mCVeJB08feXqRbTuzA';
+const GOOGLE_FORM_ID = '1FAIpQLScp-cUG-Q_62bo6tKPP0V-vM1k6SfI978CboMVaMIYD-pc_xg';
 
 const requirements = [
   'Completed Primary 7 (P7) Certificate',
