@@ -10,6 +10,7 @@ import HolidayWorkForm from './pages/HolidayWorkForm';
 import Circulars from './pages/Circulars';
 import Fees from './pages/Fees';
 import SchoolRules from './pages/SchoolRules';
+import JobOpportunities from './pages/JobOpportunities';
 import NotFound from './pages/NotFound';
 import './App.css';
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/circulars" element={<Circulars />} />
         <Route path="/fees" element={<Fees />} />
         <Route path="/school-rules" element={<SchoolRules />} />
+        <Route path="/jobs" element={<JobOpportunities />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
