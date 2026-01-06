@@ -8,8 +8,8 @@ import SectionHeader from '../components/SectionHeader';
 import gallery2 from '../assets/gallery-2.jpg';
 
 // Replace these with your actual Google Form IDs
-const ALEVEL_GOOGLE_FORM_ID = '1FAIpQLScp-cUG-Q_62bo6tKPP0V-vM1k6SfI978CboMVaMIYD-pc_xg';
-const OLEVEL_GOOGLE_FORM_ID = '1FAIpQLSddna6ZgWk-gh3DjwFdnhflkuvDhIKugvIkt__oaIZyNOqecg'; // User will replace this
+const ALEVEL_GOOGLE_FORM_ID = '1FAIpQLSdVh5YcbZipOZ0BxEAfWM4i-D1BZ77hNwM7uGr7DGcUUgiQvA';
+const OLEVEL_GOOGLE_FORM_ID = '1FAIpQLSc-tTO4bNaP11kK5641kyd0EGDENdNKXoVGAk_4XHURiSqV4w'; // User will replace this
 
 const requirements = [
   'Completed Primary 7 (P7) Certificate',
