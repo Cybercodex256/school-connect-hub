@@ -1,10 +1,116 @@
 import React from 'react';
-import { Briefcase, Clock, MapPin, FileText } from 'lucide-react';
+import { Briefcase, Clock, MapPin, Users, GraduationCap, Calendar } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SectionHeader from '../components/SectionHeader';
+import { Badge } from '../components/ui/badge';
 
 import gallery2 from '../assets/gallery-2.jpg';
+
+const jobListings = [
+  {
+    id: 1,
+    title: 'Mathematics Teacher',
+    department: 'Academic Staff',
+    type: 'Full-time',
+    deadline: 'January 31, 2026',
+    description: 'We are seeking a qualified and passionate Mathematics teacher for O-Level and A-Level classes. The ideal candidate should have a strong command of the subject and ability to inspire students.',
+    requirements: [
+      "Bachelor's degree in Mathematics or Education",
+      'Minimum 2 years teaching experience',
+      'Registered with Ministry of Education',
+      'Strong communication skills',
+    ],
+  },
+  {
+    id: 2,
+    title: 'Physics Teacher',
+    department: 'Academic Staff',
+    type: 'Full-time',
+    deadline: 'January 31, 2026',
+    description: 'Looking for an experienced Physics teacher to join our science department. Must be able to conduct practical lessons and prepare students for national examinations.',
+    requirements: [
+      "Bachelor's degree in Physics or Science Education",
+      'Experience with laboratory management',
+      'Minimum 2 years teaching experience',
+      'Ability to mentor students in science clubs',
+    ],
+  },
+  {
+    id: 3,
+    title: 'English Language Teacher',
+    department: 'Academic Staff',
+    type: 'Full-time',
+    deadline: 'February 15, 2026',
+    description: 'We need a dynamic English teacher who can enhance students\' language skills and prepare them for academic excellence in both O-Level and A-Level.',
+    requirements: [
+      "Bachelor's degree in English or Literature",
+      'Excellent written and spoken English',
+      'Experience in teaching English as a subject',
+      'Creative teaching methodologies',
+    ],
+  },
+  {
+    id: 4,
+    title: 'School Bursar',
+    department: 'Administration',
+    type: 'Full-time',
+    deadline: 'February 28, 2026',
+    description: 'We are looking for a qualified accountant to manage the school\'s financial operations, including fee collection, budgeting, and financial reporting.',
+    requirements: [
+      "Bachelor's degree in Accounting or Finance",
+      'CPA certification preferred',
+      'Minimum 3 years experience in financial management',
+      'Proficiency in accounting software',
+    ],
+  },
+  {
+    id: 5,
+    title: 'School Nurse',
+    department: 'Health Services',
+    type: 'Full-time',
+    deadline: 'February 15, 2026',
+    description: 'Seeking a registered nurse to provide healthcare services to students and staff, manage the school clinic, and coordinate health education programs.',
+    requirements: [
+      'Diploma or Degree in Nursing',
+      'Valid nursing registration',
+      'Experience in school or community health',
+      'First aid and emergency response skills',
+    ],
+  },
+];
+
+const JobCard = ({ job }) => (
+  <div className="bg-card rounded-xl p-6 shadow-lg border border-border hover:shadow-xl transition-shadow">
+    <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
+      <div>
+        <h3 className="font-display font-semibold text-xl text-foreground mb-1">
+          {job.title}
+        </h3>
+        <p className="text-muted-foreground text-sm">{job.department}</p>
+      </div>
+      <Badge variant="secondary" className="bg-primary/10 text-primary">
+        {job.type}
+      </Badge>
+    </div>
+    
+    <p className="text-muted-foreground text-sm mb-4">{job.description}</p>
+    
+    <div className="space-y-2 mb-4">
+      <p className="text-sm font-semibold text-foreground">Requirements:</p>
+      <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
+        {job.requirements.map((req, index) => (
+          <li key={index}>{req}</li>
+        ))}
+      </ul>
+    </div>
+    
+    <div className="flex items-center gap-2 text-sm text-primary">
+      <Calendar className="w-4 h-4" />
+      <span>Application Deadline: {job.deadline}</span>
+    </div>
+  </div>
+);
 
 const JobOpportunities = () => {
   return (
@@ -85,26 +191,10 @@ const JobOpportunities = () => {
             title="Current Openings"
             subtitle="Explore available positions at our school"
           />
-          <div className="max-w-2xl mx-auto">
-            <div className="bg-card rounded-xl p-8 shadow-lg border border-border text-center">
-              <div className="w-20 h-20 rounded-full bg-secondary/20 flex items-center justify-center mx-auto mb-6">
-                <FileText className="w-10 h-10 text-secondary" />
-              </div>
-              <h3 className="font-display font-semibold text-2xl text-foreground mb-4">
-                Job Listings Coming Soon
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                We are currently updating our job listings. Please check back soon for available positions, 
-                or contact us directly to inquire about opportunities.
-              </p>
-              <div className="bg-muted rounded-lg p-4">
-                <p className="text-sm text-muted-foreground">
-                  <strong>For inquiries, contact:</strong><br />
-                  Email: info@queenofmartyrs.ac.ug<br />
-                  Phone: +256 700 000 000
-                </p>
-              </div>
-            </div>
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {jobListings.map((job) => (
+              <JobCard key={job.id} job={job} />
+            ))}
           </div>
         </div>
       </section>

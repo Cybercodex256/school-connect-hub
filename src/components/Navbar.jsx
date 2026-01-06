@@ -22,6 +22,7 @@ const navLinks = [
   },
   { name: 'Circulars', path: '/circulars' },
   { name: 'Fees', path: '/fees' },
+  { name: 'Jobs', path: '/jobs' },
 ];
 
 const Navbar = () => {
