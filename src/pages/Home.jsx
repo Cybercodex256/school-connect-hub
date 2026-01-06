@@ -257,7 +257,7 @@ const Home = () => {
           </div>
           <div className="text-center">
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=0.3519,32.4731&destination_place_id=ChIJxxxxxxxxxx"
+              href="https://www.google.com/maps/dir//9F4Q%2BC2,+Kampala/@0.2447917,32.4806888,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x177da523e05769e7:0x1e423e753351e910!2m2!1d32.4875508!2d0.3560824?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-6 py-3 rounded-full font-semibold hover:bg-secondary/90 transition-all"

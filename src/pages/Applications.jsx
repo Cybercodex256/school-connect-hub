@@ -148,10 +148,10 @@ const Applications = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="tel:+256700000000"
+              href="tel:+256704955683"
               className="inline-flex items-center gap-2 bg-primary-foreground text-primary px-6 py-3 rounded-full font-semibold hover:bg-primary-foreground/90 transition-colors"
             >
-              Call Us: +256 700 000 000
+              Call Us: +256 704 955 683
             </a>
             <a
               href="mailto:admissions@queenofmartyrs.ac.ug"

@@ -29,7 +29,7 @@ const personalRequirements = [
   'A set, enough pens, pencils, ruler, Calculator',
   'A bucket, bathing soap, washing soap (3 bars), toothpaste, toothbrushes, sponge, Slippers, shoe polish, Open shoes and a comb',
   'Bed sheets, night wears, blanket, towel, mosquito net',
-  'Black shoes, 3 pairs of white stockings for girls, 3 pairs of black stockings for boys and Canvas shoes',
+  'Black leather shoes, 3 pairs of white stockings for girls, 3 pairs of black stockings for boys and Canvas shoes',
   'Cutlery, water bottle and container',
   'A flask',
   'A black non-decorated belt for boys',
