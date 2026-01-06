@@ -12,7 +12,7 @@ import gallery2 from '../assets/gallery-2.jpg';
 import gallery3 from '../assets/gallery-3.jpg';
 import gallery4 from '../assets/gallery-4.jpg';
 import gallery5 from '../assets/gallery-5.jpg';
-import schoolBuilding from '../assets/school-building.jpg';
+import heroImage from '../assets/hero-image.jpg';
 import uceBestStudents from '../assets/uce-best-students.jpg';
 
 const heroSlides = [
@@ -67,7 +67,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={schoolBuilding}
+            src={heroImage}
             alt="Queen of Martyrs Secondary School"
             className="w-full h-full object-cover"
           />
@@ -82,7 +82,7 @@ const Home = () => {
             </div>
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-shadow">
               Queen of Martyrs
-              <span className="block text-secondary">Secondary School</span>
+              <span className="block text-secondary">S.S Kigoma</span>
             </h1>
             <p className="text-xl md:text-2xl font-semibold italic mb-6 text-secondary">
               "God Source of Wisdom"

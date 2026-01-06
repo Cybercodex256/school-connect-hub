@@ -7,8 +7,9 @@ import SectionHeader from '../components/SectionHeader';
 
 import gallery2 from '../assets/gallery-2.jpg';
 
-// Replace this with your actual Google Form ID
-const GOOGLE_FORM_ID = '1FAIpQLScp-cUG-Q_62bo6tKPP0V-vM1k6SfI978CboMVaMIYD-pc_xg';
+// Replace these with your actual Google Form IDs
+const ALEVEL_GOOGLE_FORM_ID = '1FAIpQLScp-cUG-Q_62bo6tKPP0V-vM1k6SfI978CboMVaMIYD-pc_xg';
+const OLEVEL_GOOGLE_FORM_ID = 'YOUR_OLEVEL_FORM_ID'; // User will replace this
 
 const requirements = [
   'Completed Primary 7 (P7) Certificate',
@@ -107,17 +108,30 @@ const Applications = () => {
         </div>
       </section>
 
-      {/* Application Form */}
+      {/* O-Level Application Form */}
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4">
           <SectionHeader
-            title="Application Form"
-            subtitle="Fill out the form below to begin your application"
+            title="O-Level Application Form"
+            subtitle="Apply for S.1 to S.4 admission"
           />
-          <GoogleFormEmbed formId={GOOGLE_FORM_ID} title="Student Application Form" />
+          <GoogleFormEmbed formId={OLEVEL_GOOGLE_FORM_ID} title="O-Level Application Form" />
           <p className="text-center text-muted-foreground mt-6 max-w-xl mx-auto">
-            <strong>Note:</strong> Please ensure all information provided is accurate.
-            You will receive a confirmation email once your application is submitted.
+            <strong>Note:</strong> For S.1, S.2, S.3 and S.4 admissions.
+          </p>
+        </div>
+      </section>
+
+      {/* A-Level Application Form */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <SectionHeader
+            title="A-Level Application Form"
+            subtitle="Apply for S.5 to S.6 admission"
+          />
+          <GoogleFormEmbed formId={ALEVEL_GOOGLE_FORM_ID} title="A-Level Application Form" />
+          <p className="text-center text-muted-foreground mt-6 max-w-xl mx-auto">
+            <strong>Note:</strong> For S.5 and S.6 admissions. Please ensure all information provided is accurate.
           </p>
         </div>
       </section>
