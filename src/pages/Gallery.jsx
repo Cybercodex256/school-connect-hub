@@ -23,9 +23,7 @@ const images = [
   { src: gallery4, alt: 'Project Work', category: 'Images' },
   { src: gallery5, alt: 'Student science laboratory', category: 'Images' },
   { src: gallery6, alt: 'School Library', category: 'Images' },
-  { src: gallery7, alt: 'Classroom Block and Facilities', category: 'Images' },
   { src: heroImage, alt: 'Main Campus View', category: 'Images' },
-  { src: gallery8, alt: 'Classroom Block and Facilities', category: 'Images' },
   { src: archbishopBlessing, alt: 'Archbishop Paul Ssemogerere blessing the foundation for the girls dormitory on 19th April, 2024', category: 'Images' },
 ];
 

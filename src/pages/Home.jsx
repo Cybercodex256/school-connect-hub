@@ -230,15 +230,18 @@ const Home = () => {
             subtitle="Conveniently located 8.7km from Kampala city centre"
             light
           />
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-8">
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-6 border border-primary-foreground/20">
               <h3 className="font-display text-xl font-semibold text-primary-foreground mb-4">
                 Address
               </h3>
-              <p className="text-primary-foreground/80">
+              <p className="text-primary-foreground/80 mb-4">
                 Kigoma, Bukasa, Wakiso District<br />
                 Behind Kyebando-Nansana<br />
                 Opposite Nakabugo-Sentena Road
+              </p>
+              <p className="text-primary-foreground/80">
+                <strong>Phone:</strong> 0704955683 / 0705554967
               </p>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-6 border border-primary-foreground/20">
@@ -251,6 +254,19 @@ const Home = () => {
                 <li>• Kampala – Sentema Road off Kireka Bbira, Opposite Nakabugo</li>
               </ul>
             </div>
+          </div>
+          <div className="text-center">
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=0.3519,32.4731&destination_place_id=ChIJxxxxxxxxxx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-6 py-3 rounded-full font-semibold hover:bg-secondary/90 transition-all"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              Get Directions on Google Maps
+            </a>
           </div>
         </div>
       </section>
