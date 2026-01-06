@@ -8,12 +8,12 @@ import SectionHeader from '../components/SectionHeader';
 
 // Replace these with actual Google Drive folder IDs for each form
 const FOLDER_IDS = {
-  'form-1': '18ntGVKvsrmvPaNpsfNGysLDDunxpm6oN',
-  'form-2': '1Q6j9IUyFJZL0KqCdeTgD-yr-fqGuFON_',
-  'form-3': '16jx8isHf9Hk2cSj6vPoBbcM4yhOvccyU',
-  'form-4': '1XjR1OePZrnkqJNbxtHDDLiXWQQQTms7w',
-  'form-5': '1b6CWkhPhftL7DzEeQu7PDoPVuXtceWk9',
-  'form-6': '1rjImdEW-TKIaoJdbz4VO8z0KjdhqJ6GJ',
+  'form-1': '1QCfYdJOJ7HqbPn-IxLAGxsss7eGl3lAY',
+  'form-2': '1EGsnDUFhcHKZFCZLDgNm5pq2vNPWn9Z3',
+  'form-3': '1ZBXKWOfRvXnWM-k3hLOY9AxEKv4oiecE',
+  'form-4': '1cccgsyPXlHLkXQq895ZQEy5klUke4lDD',
+  'form-5': '1EFKaoBKEs41n2sIroO_Rc5Lx5qrs8c3R',
+  'form-6': '1r8a7LNCqnZ2dybhHe1rRXjXB1h0hOQ2r',
 };
 
 const formNames = {
