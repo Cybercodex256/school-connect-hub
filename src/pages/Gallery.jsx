@@ -15,6 +15,7 @@ import gallery7 from '../assets/gallery-7.jpg';
 import heroImage from '../assets/hero-image.jpg';
 import gallery8 from '../assets/gallery-8.jpg';
 import archbishopBlessing from '../assets/archbishop-blessing.jpg';
+import archbishopBlock from '../assets/archbishop-ssemogerere-block.jpg';
 
 const images = [
   { src: gallery1, alt: 'Girls Dormitory block', category: 'Images' },
@@ -25,6 +26,7 @@ const images = [
   { src: gallery6, alt: 'School Library', category: 'Images' },
   { src: heroImage, alt: 'Main Campus View', category: 'Images' },
   { src: archbishopBlessing, alt: 'Archbishop Paul Ssemogerere blessing the foundation for the girls dormitory on 19th April, 2024', category: 'Images' },
+  { src: archbishopBlock, alt: 'Archbishop Paul Ssemogerere Block', category: 'Images' },
 ];
 
 const categories = ['All', 'Images', 'Videos'];
